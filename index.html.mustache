@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>{{fullname}}</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div id="profile"><img src="{{photourl}}" alt="photo of {{fullname}}" /></div>
+            <div id="contact-info">
+                <span id="name">{{fullname}}</span>
+                <span id="position">{{position}} at <a href="{{{institution_url}}}">{{institution}}</a></span>
+                <span>Institutional Email: {{institution_email}}</span>
+                <span>Forever Email: {{forever_email}}</span>
+                <a href="https://linkedin.com/in/{{linkedin}}">LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user={{scholar}}">Google Scholar</a>
+                <a href="https://github.com/{{github}}">GitHub</a>
+                <a href="https://gitlab.com/{{gitlab}}">GitLab</a>
+            </div>
+        </header>
+        <div class="section">
+            <h2>Bio</h2>
+            <p class="bio">{{bio}}</p>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+            {{#projects}}
+            <div class="project">
+                <div class="projectimg">
+                    <a href="#{{{anchor}}}"><img src="{{{img_url}}}" alt="{{name}} project image" /></a>
+                </div>
+                <div class="project-text">
+                    <a name="{{anchor}}"><span class="name">{{name}}</span></a>
+                    <span class="collaborators">Collaborators: <span class="collablist">{{#collaborators}}<span><a href="{{{url}}}">{{name}}</a>&emsp;</span>{{/collaborators}}</span></span><br/>
+                    <span class="description">{{description}}</span><br/>
+                    <span class="institution">This work was performed at {{institution}}.</span><br/>
+                    <span class="links">{{#links}}<a href="{{{url}}}">{{name}}</a>&emsp;{{/links}}</span>
+                </div>
+            </div>
+            {{/projects}}
+        </div>
+        <footer>&copy; Frazier Baker 2023.  All rights reserved.  Some images not original, see <a href="static/credits.html">image credits.</a></footer>
+    </body>
+</html>

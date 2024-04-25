@@ -1,0 +1,167 @@
+{
+  "scholar": "iaAQRCYAAAAJ",
+  "linkedin": "frazierbaker",
+  "github": "frazierbaker",
+  "gitlab": "frazierbaker",
+  "position": "PhD Student",
+  "institution": "The Ohio State University",
+  "institution_url": "https://osu.edu",
+  "institution_email": "last name dot 3239 at osu dot edu",
+  "forever_email": "first name at this domain",
+  "fullname": "Frazier N. Baker",
+  "photourl": "static/images/frazier.png",
+  "background": "#000000",
+  "linecolor": "#979797",
+  "foreground": "#dedede",
+  "font_family": "'Ubuntu Mono', monospace",
+  "linkcolor": "#00fb00",
+  "css_preface": "@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');",
+  "bio": "Frazier Baker is a machine learning researcher.  He is currently pursuing his PhD at The Ohio State University, advised by Dr. Xia Ning.  He has previously worked as a Research Scientist in Georgia Tech Research Institute's Advanced Concepts Laboratory.  Frazier received his Masters of Science in Computer Science from the University of Cincinnati in December 2019, advised by Dr. Aleksey Porollo.  He received his Bachelor of Science in Computer Science in May 2019 from the University of Cincinnati.",
+  "projects": [
+    {
+      "name": "RLSynC",
+      "anchor": "RLSynC",
+      "institution": "The Ohio State University",
+      "img_url": "/static/images/retrosynthesis.jpg",
+      "description": "Offline-Online Reinforcement Learning for Retrosynthesis",
+      "collaborators": [
+        {
+          "name": "Ziqi Chen",
+          "url": "https://linkedin.com/in/ziqi-chen"
+        },
+        {
+          "name": "Xia Ning",
+          "url": "https://www.linkedin.com/in/xia-ning-2a32323a/"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/ninglab/RLSynC"
+        },
+        {
+          "name": "ArXiV",
+          "url": "https://arxiv.org/abs/2309.02671"
+        }
+      ]
+    },
+    {
+      "name": "MASS",
+      "anchor": "MASS",
+      "institution": "Georgia Tech Research Institute",
+      "img_url": "/static/images/mass.png",
+      "description": "Multiplatform Autonomy Simulation Suite",
+      "collaborators": [
+        {
+          "name": "Kevin DeMarco",
+          "url": "https://www.linkedin.com/in/kevindemarco/"
+        },
+        {
+          "name": "Sean Alderman",
+          "url": "https://www.linkedin.com/in/sa79161792/"
+        },
+        {
+          "name": "Kevin Cheng",
+          "url": "https://www.linkedin.com/in/kevin-cheng-693342186/"
+        },
+        {
+          "name": "Sohyun Sora Sung",
+          "url": "https://www.linkedin.com/in/sora-sung-8555683/"
+        },
+        {
+          "name": "Collin Thomas",
+          "url": "https://www.linkedin.com/in/collinkthomas/"
+        },
+        {
+          "name": "Devon Current",
+          "url": "https://www.linkedin.com/in/devon-current-3aa002a5/"
+        },
+        {
+          "name": "Alison Christensen",
+          "url": "https://www.linkedin.com/in/alison-christensen-28aa6969/"
+        },
+        {
+          "name": "Amy Gemme",
+          "url": "https://www.linkedin.com/in/agemme/"
+        },
+        {
+          "name": "Prabhdip Gill",
+          "url": "https://www.linkedin.com/in/prabhdip-gill-5b24aa119/"
+        },
+        {
+          "name": "James Lewis",
+          "url": "https://www.linkedin.com/in/james-k-lewis/"
+        },
+        {
+          "name": "Mary Catharine Martin",
+          "url": "https://www.linkedin.com/in/mary-catharine-martin-4b387999/"
+        },
+        {
+          "name": "Mya Tsang",
+          "url": "https://www.linkedin.com/in/myatsang/"
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "url": "https://mass.gtri.gatech.edu/"
+        },
+        {
+          "name": "GitLab",
+          "url": "https://gitlab.com/multiplatformautonomy"
+        }
+      ]
+    },
+    {
+      "name": "CoeViz",
+      "anchor": "CoeViz",
+      "institution": "Cincinnati Childrens Hospital Medical Center and the University of Cincinnati",
+      "img_url": "/static/images/metalloprotein.png",
+      "description": "Visualization and Analysis of Amino Acid Coevolution Matrices for Proteomics",
+      "collaborators": [
+        {
+          "name": "Aleksey Porollo",
+          "url": "https://www.linkedin.com/in/alexey-porollo/"
+        },
+        {
+          "name": "Nicholas Maltbie",
+          "url": "https://www.linkedin.com/in/nicholas-maltbie-b543a8137"
+        },
+        {
+          "name": "Joseph Hirschfeld",
+          "url": "https://www.linkedin.com/in/ichbinjoe"
+        },
+        {
+          "name": "Shivchander Sudalairaj",
+          "url": "https://www.linkedin.com/in/shivchanders/"
+        },
+        {
+          "name": "Daniel Corcoran",
+          "url": "https://www.linkedin.com/in/daniel-p-corcoran"
+        }
+      ],
+      "links": [
+        {
+          "name": "CoeViz Paper",
+          "url": "https://link.springer.com/article/10.1186/s12859-016-0975-z"
+        },
+        {
+          "name": "MDPI Data Paper",
+          "url": "https://www.mdpi.com/2306-5729/3/1/4"
+        },
+        {
+          "name": "CoeViz 2 Paper",
+          "url": "https://www.frontiersin.org/articles/10.3389/fbinf.2021.653681/full"
+        },
+        {
+          "name": "Original Version",
+          "url": "http://polyview.cchmc.org/"
+        },
+        {
+          "name": "New Version",
+          "url": "https://research.cchmc.org/CoevLab/"
+        }
+      ]
+    }
+  ]
+}
